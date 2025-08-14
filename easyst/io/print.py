@@ -30,7 +30,7 @@ def custom_print(redirect_func):
 
 def st_print(*args, **kwargs):
     """
-    Print to Streamlit
+    Print to Streamlit with the best format according to the type of the argument.
     """
     for arg in args:
         if isinstance(arg, str):
